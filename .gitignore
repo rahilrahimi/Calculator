@@ -1,3 +1,6 @@
+./assets/.DS_Store
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -128,3 +131,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# TypeScript v1 declaration files
+typings/
+
+# dotenv environment variables file
+.env.test
+
