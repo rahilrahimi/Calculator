@@ -54,6 +54,10 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 - styles.css: CSS file for styling the calculator.
 - index.js: JavaScript file containing the calculator logic.
 
+## Accessing the Calculator App
+
+You can access the Calculator App here: ( https://rahilrahimi.github.io/Calculator/ )
+
 # Credits
 
 Created with 💖 by [Rachel.M].
