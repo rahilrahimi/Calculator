@@ -19,6 +19,10 @@ function calculate(){
           throw new Error('error: divide by 0');
       }
 
+        // Convert expressions starting with '.' to '0.'
+        if (/^\./.test(display.value.trim())) {
+        display.value = '0' + display.value;
+        }
 
         // Check if the expression is a single number or a negative number
         if (/^-?\d+(\.\d+)?$/.test(display.value.trim())) {
@@ -32,7 +36,7 @@ function calculate(){
             return; // Exit the function without evaluating
         }
 
-        // Check if the expression is empty
+        // Check if the expression is empty.calculator evaluates the expression like "5 + 3 * 2"
         if (!display.value.trim()) {
             throw new Error('Invalid expression');
         }
