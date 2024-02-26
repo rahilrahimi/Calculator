@@ -26,7 +26,7 @@ body{
 #display{
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 25%);
@@ -58,13 +58,13 @@ button:active{
 }
 
 .operator-btn{
-    background-color: deepskyblue;
+    background-color: hwb(152 49% 36%);
 }
 
 .operator-btn:hover{
-    background-color:dodgerblue;
+    background-color:lightgrey;
 }
 
 .operator-btn:active{
-    background-color: hsl(217, 53%, 70%);
+    background-color: hsl(83, 81%, 41%);
 }
