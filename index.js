@@ -12,6 +12,7 @@ function clearDisplay(){
 function deleteLastChar() {
     display.value = display.value.slice(0, -1);
 }
+
 function calculate(){
     try{
        // Check if the expression contains division by zero
@@ -23,7 +24,6 @@ function calculate(){
       display.value = eval(display.value);
       
     }
-
   catch (error) {
     if (error instanceof SyntaxError && error.message === 'Unexpected end of input') {
         display.value = 'Invalid expression'; // Handle invalid expression error
