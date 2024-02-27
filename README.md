@@ -10,7 +10,7 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 - Input numbers and perform arithmetic operations.
 - Clear the display with the "C" button.
 - Delete the last character with the "DE" button.
-- Handle division by zero error.
+- Error handling for invalid expressions and division by zero.
 - Validate input expressions before calculation.
 
 
